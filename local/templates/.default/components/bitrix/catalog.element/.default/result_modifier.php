@@ -92,14 +92,16 @@ if (!empty($arResult['PROPERTIES']['BLOG_COMMENTS_CNT']['VALUE'])) {
 // Передаем готовый массив в template.php через $arResult
 $arResult['SCHEMA_PRODUCT'] = $schemaProduct;
 
-// Вывод микроразметки из result_modifier.php
-if (!empty($arResult['SCHEMA_PRODUCT'])) {
-    \Bitrix\Main\Page\Asset::getInstance()->addString(
-        '<script type="application/ld+json">' . 
-        json_encode($arResult['SCHEMA_PRODUCT'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) . 
-        '</script>'
-    );
+
+// Schema.org
+
+$cp = $this->__component; 
+if (is_object($cp)) {
+    $cp->SetResultCacheKeys(array('DETAIL_PICTURE', 'PREVIEW_PICTURE', 'NAME', 'IPROPERTY_VALUES', 'PREVIEW_TEXT'));
 }
+
+
+
 ?>
 
           

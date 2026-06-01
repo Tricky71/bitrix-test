@@ -28,7 +28,34 @@ $asset = Asset::getInstance();
   <?php Asset::getInstance()->addJs('/local/templates/.default/assets/js/main.js');?>
 	<?php $APPLICATION->ShowHead();?>
 	
+	 <!-- Настройка Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://<?=$_SERVER['HTTP_HOST']?><?=$APPLICATION->GetCurPage()?>" />
+	<meta property="og:title" content="<?$APPLICATION->ShowTitle(false)?>" />
 	
+	<?
+	// Получаем описание страницы для og:description
+	$page_description = $APPLICATION->GetDirProperty("description") ?: $APPLICATION->GetPageProperty("description");
+	if ($page_description): ?>
+			<meta property="og:description" content="<?=$page_description?>" />
+	<? endif; ?>
+
+	<?
+  // Путь к вашей дефолтной картинке-заглушке
+    $defaultImage = "/local/templates/ваш_шаблон/images/default-share.jpg"; 
+    
+    // Передаем дефолтное значение в свойство og_image. 
+    // Если динамический компонент (товар/новость) дальше по коду установит свое значение через SetPageProperty, 
+    // оно автоматически перезапишет это дефолтное значение.
+    if (empty($APPLICATION->GetPageProperty("og_image"))) {
+        $APPLICATION->SetPageProperty("og_image", $defaultImage);
+    }
+    ?>
+
+    <!-- Вывод картинки через отложенную функцию Битрикса -->
+    <meta property="og:image" content="<?$APPLICATION->ShowProperty("og_image")?>" />
+
+
 
 	<!-- Favicons -->
 	
