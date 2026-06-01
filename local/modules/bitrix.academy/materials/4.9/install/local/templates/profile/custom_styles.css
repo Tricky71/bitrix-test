@@ -1,0 +1,27 @@
+.header__logout {
+	margin-left: auto;
+}
+
+.header__logout a {
+	line-height: normal;
+}
+
+.header__form td {
+	display: inline-block;
+	width: 5em;
+}
+
+.bx-user-info-anchor-cell {
+	vertical-align: middle;
+}
+
+.bx-user-info-anchor-cell img {
+	max-width: 100% !important;
+	border-radius: 50% !important;
+}
+
+@media (max-width: 768px) {
+	.header__form table {
+		display: none;
+	}
+}

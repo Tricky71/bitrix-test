@@ -1,0 +1,26 @@
+.notifications-nav .bx-pagination .bx-pagination-container ul li.bx-active span {
+    background: #F86630;
+}
+
+.mark-important svg {
+    vertical-align: text-bottom;
+    width: 14px;
+    height: 14px;
+}
+
+.notification-prefilters .form-select {
+    background-position: right 10px center;
+}
+
+.notifications-list.table tr td a {
+    display:block;
+    height:100%;
+    width:100%;
+    text-decoration: none;
+}
+
+.notification-files svg {
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+}

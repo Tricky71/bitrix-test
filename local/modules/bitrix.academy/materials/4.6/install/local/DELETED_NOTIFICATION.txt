@@ -1,0 +1,14 @@
+Тип события: DELETED_NOTIFICATION
+
+Название: Удаление уведомления
+
+Описание:
+#EMAIL_TO# - почта получателя
+#USER_ID# - id пользователя, чьё уведомление было удалено
+#DATETIME_DELETE# - время удаления уведомления
+#DATETIME_CREATE# - время создания уведомления
+#NOTIFICATION_ID# - id уведомления
+#NOTIFICATION_TITLE# - Заголовок уведомления
+#NOTIFICATION_MESSAGE# - Содержимое уведомление
+
+Снять галочку с [en] English

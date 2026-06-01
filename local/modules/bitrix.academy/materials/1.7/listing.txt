@@ -1,0 +1,2 @@
+cd /home/bitrix/www/bitrix
+tar -cvf modules.tar modules/

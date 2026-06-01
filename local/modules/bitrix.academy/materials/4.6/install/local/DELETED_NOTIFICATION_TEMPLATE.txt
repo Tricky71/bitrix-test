@@ -1,0 +1,17 @@
+Тип почтового события: Удаление уведомления [DELETED_NOTIFICATION]
+
+От кого:	#DEFAULT_EMAIL_FROM#
+Кому:	#EMAIL_TO#
+Тема:	Непрочитанное уведомление было удалено
+
+Тело:
+Пользователь <a href="https://{ваш сайт}/bitrix/admin/user_edit.php?lang=ru&ID=#USER_ID#">(#USER_ID#)</a> не успел прочесть уведомление "#NOTIFICATION_TITLE#" (#NOTIFICATION_ID#) и оно было удалено.<br>
+<br>
+<br>
+Уведомление №#NOTIFICATION_ID# - #NOTIFICATION_TITLE#<br>
+<br>
+#NOTIFICATION_MESSAGE#
+<br>
+<br>
+Дата создания уведомления: #DATETIME_CREATE#<br>
+Дата удаления уведомления: #DATETIME_DELETE#

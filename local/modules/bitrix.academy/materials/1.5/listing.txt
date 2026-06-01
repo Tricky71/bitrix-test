@@ -1,0 +1,3 @@
+cd /home/bitrix/www/search/
+ls -la
+chmod 644 index.php

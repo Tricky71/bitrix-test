@@ -1,0 +1,6 @@
+htpasswd -c /home/bitrix/www/.htpasswd developer
+<Ввод пароля>
+
+tail /home/bitrix/www/.htpasswd
+
+chown bitrix:bitrix /home/bitrix/www/.htpasswd

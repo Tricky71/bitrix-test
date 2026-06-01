@@ -1,0 +1,10 @@
+User-agent: *
+
+# Uncomment next line and put your main domain there
+# Host: example.com
+
+# Remove next line to allow indexing by search robots
+Disallow: /
+
+Disallow: /bitrix/
+Disallow: /local/

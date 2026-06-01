@@ -1,0 +1,464 @@
+Array
+(
+    [0] => История
+    [1] => /about/hystory
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-bookshelf
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Команда
+    [1] => /about/team
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-people
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Присоединиться
+    [1] => /about/join/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Тест
+    [1] => /about/test/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => История
+    [1] => /about/hystory
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-bookshelf
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Команда
+    [1] => /about/team
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-people
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Присоединиться
+    [1] => /about/join/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Тест
+    [1] => /about/test/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => История
+    [1] => /about/hystory
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-bookshelf
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Команда
+    [1] => /about/team
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-people
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Присоединиться
+    [1] => /about/join/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Тест
+    [1] => /about/test/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => История
+    [1] => /about/hystory
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-bookshelf
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Команда
+    [1] => /about/team
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-people
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Присоединиться
+    [1] => /about/join/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Тест
+    [1] => /about/test/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => История
+    [1] => /about/hystory
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-bookshelf
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Команда
+    [1] => /about/team
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-people
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Присоединиться
+    [1] => /about/join/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Тест
+    [1] => /about/test/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => История
+    [1] => /about/hystory
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-bookshelf
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Команда
+    [1] => /about/team
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-people
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Присоединиться
+    [1] => /about/join/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Тест
+    [1] => /about/test/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => История
+    [1] => /about/hystory
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-bookshelf
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Команда
+    [1] => /about/team
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-people
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Присоединиться
+    [1] => /about/join/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Тест
+    [1] => /about/test/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => История
+    [1] => /about/hystory
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-bookshelf
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Команда
+    [1] => /about/team
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+            [menu_ico] => bi-people
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Присоединиться
+    [1] => /about/join/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)
+Array
+(
+    [0] => Тест
+    [1] => /about/test/
+    [2] => Array
+        (
+        )
+
+    [3] => Array
+        (
+        )
+
+    [4] => 
+)

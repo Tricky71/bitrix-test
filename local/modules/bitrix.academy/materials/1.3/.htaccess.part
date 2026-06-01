@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Authorization"
+AuthUserFile /home/bitrix/www/.htpasswd
+Require valid-user

@@ -1,0 +1,5 @@
+yum install -y postfix
+
+postconf -e 'always_bcc = bitrix@localhost'
+postconf -e 'home_mailbox = mailbox/'
+service postfix start
