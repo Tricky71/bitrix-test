@@ -3,7 +3,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Дашборд ");
 $APPLICATION->SetPageProperty("page_css_class", "dashboard");
 ?>
-
+<?$roles = $APPLICATION->GetUserRoles();
+debug($roles)?>
 <div class="row">
 
   <!-- Left side columns -->
