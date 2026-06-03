@@ -48,12 +48,26 @@ Loc::loadMessages(__FILE__);
 
 				<div class="col-lg-2 col-md-3 footer-links">
 					<h4>Полезные ссылки</h4>
-					<ul>
-						<li><i class="bi bi-chevron-right"></i> <a href="#">Главная</a></li>
-						<li><i class="bi bi-chevron-right"></i> <a href="#">О Комапнии</a></li>
-						<li><i class="bi bi-chevron-right"></i> <a href="#">Услуги</a></li>
-						<li><i class="bi bi-chevron-right"></i> <a href="#">Портфолио</a></li>
-					</ul>
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:menu", 
+						"main-bottom", 
+						[
+							"ALLOW_MULTI_SELECT" => "N",
+							"CHILD_MENU_TYPE" => "left",
+							"DELAY" => "N",
+							"MAX_LEVEL" => "1",
+							"MENU_CACHE_GET_VARS" => [
+								0 => "",
+							],
+							"MENU_CACHE_TIME" => "3600",
+							"MENU_CACHE_TYPE" => "N",
+							"MENU_CACHE_USE_GROUPS" => "Y",
+							"ROOT_MENU_TYPE" => "bottom",
+							"USE_EXT" => "N"
+						],
+						false
+					);?>
+					
 				</div>
 
 				<div class="col-lg-2 col-md-3 footer-links">

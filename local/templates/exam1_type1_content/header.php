@@ -112,7 +112,7 @@ $asset = Asset::getInstance();
 
 					<div class="col-lg-4">
 
-						<div class="service-box">
+						<div class="service-box <?=$APPLICATION->ShowProperty('color_menu_left')?>">
 							<div class="services-list">
 								<?$APPLICATION->IncludeComponent(
 									"bitrix:menu", 

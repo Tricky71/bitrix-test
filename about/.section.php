@@ -1,6 +1,7 @@
 <?
 $sSectionName = "О компании";
 $arDirProperties = Array(
-   "title" => "О компании"
+   "title" => "О компании",
+   "color_menu_left" => "red"
 );
 ?>
